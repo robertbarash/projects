@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Skills = () => {
     return(
-        <div>Hi</div>
+        <div>Stay tuned...</div>
     )
 }
 

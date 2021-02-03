@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap"
 import SkillsSection from "../components/sections/skillsSection.jsx"
 import fontawesome from "../components/fontawesome"
 import ProjectsSection from "../components/sections/projectsSection.jsx"
-
+import {Link} from "gatsby";
 //Create Header
 //Create footer with privacy section
 //We are going to use an "Active" prop to switch between images
@@ -31,7 +31,10 @@ export default function Index() {
         <Layout>
           <h1>Hi, my name is Rob.</h1> 
           <p className={'move-text'}>
-            And this is my little piece of the internet.
+            And this is my piece of the internet.
+          </p>
+          <p className={'p-notice'}>This site is in active development. Click
+          <Link to="/progress" className="p-notice-link"> here</Link> to see my next steps.
           </p>
           </Layout>
           </Container>

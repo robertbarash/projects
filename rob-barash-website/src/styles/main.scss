@@ -25,6 +25,20 @@ p{
     color: $primaryColor;
 }
 
+.p-notice{
+    font-size: 18px;
+    color: rgb(151, 94, 24);
+}
+
+.p-notice-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(223, 133, 23);
+}
+.p-notice-link:hover{
+    text-decoration: none !important;
+    color:orange
+}
 
 //Outside of the container I need a gradient overlay for the entirety of the sections
 //This will go in a Div that is the parent of the container
