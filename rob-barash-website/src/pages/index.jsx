@@ -8,6 +8,8 @@ import SkillsSection from "../components/sections/skillsSection.jsx"
 import fontawesome from "../components/fontawesome"
 import ProjectsSection from "../components/sections/projectsSection.jsx"
 import {Link} from "gatsby";
+import Footer from "../components/layout/footer.jsx"
+
 //Create Header
 //Create footer with privacy section
 //We are going to use an "Active" prop to switch between images
@@ -26,21 +28,23 @@ import {Link} from "gatsby";
 //0rem 0px
 export default function Index() {
   return (
+    <div>
     <div className="sunset-image">
       <Container>
         <Layout>
-          <h1>Hi, my name is Rob.</h1> 
-          <p className={'move-text'}>
-            And this is my piece of the internet.
-          </p>
-          <p className={'p-notice'}>This site is in active development. Click
-          <Link to="/progress" className="p-notice-link"> here</Link> to see my next steps.
-          </p>
+          <h1>Hi, my name is Rob!</h1> 
+          <p className={'move-text'} style={{color:"#d97802"}}>I'm a software developer with a focus on .NET & React</p>
+          <p className={'p-notice'}></p>
           </Layout>
           </Container>
-          <SkillsSection/>
-          <ProjectsSection/>
-    </div>
+          <span style={{bottom:"10px"}}>
+          <a style={{fontWeight:"bold",color:"#363136"}}>Photo taken in</a><a style={{color:"#363136"}}> Ko Pha Ngan, Thailand</a> 
+          </span>
+      </div>
+      <SkillsSection/>
+      <ProjectsSection/>
+      <Footer/>
+      </div>
   )
 }
 

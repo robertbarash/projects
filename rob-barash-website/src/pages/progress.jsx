@@ -4,9 +4,8 @@ export const Progress = () => {
     return(
         <div>
             <Container>
-            <h3 style={{paddingTop:"30px"}}>This page encapsulates the progress that needs to be made for this site to be fully functioning.</h3>
+            <h3 style={{paddingTop:"30px"}}>A place to outline thoughts about what else needs to be worked on</h3>
             <br/>
-                <h4>Alternatively, it's a public look into my work process.</h4>
             <br/>
             <ul>
                 <h3>General</h3>

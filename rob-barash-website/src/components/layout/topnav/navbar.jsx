@@ -19,11 +19,11 @@ const Navbar = (props) => {
           <Link to="/#projects" className={navStyles.link}>
             <FontAwesomeIcon icon={faGithub}/> Projects</Link>
         </li>
-        <li className={navStyles.item}>
+        {/*<li className={navStyles.item}>
           <Link to="/#blog" className={navStyles.link}>
-            <FontAwesomeIcon icon={faComment} /> Blog</Link>
+            <FontAwesomeIcon icon={faComment} /> Blog</Link> 
         </li>
-        <Toggle className={navStyles.toggleIcons} open={props.open}/>
+        <Toggle className={navStyles.toggleIcons} open={props.open}/>*/}
       </ul>
     </div>
   </header>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Container } from "react-bootstrap"
 import Card from "../card.jsx"
-import siteImg from "../../assets/img/cards/cardSite.png"
+import siteImg from "../../assets/img/desktop/card-site-compressed.jpg"
 
 const siteTitle = 'robbarash.com';
 const siteDescription = 'Created with a lotta love, and GatsbyJS.';

@@ -1,6 +1,5 @@
 import React from 'react';
 import NavContainer from '../layout/topnav/navContainer';
-import Footer from "./footer";
 import "../../styles/main.scss";
 
 if (typeof window !== "undefined") {
@@ -17,4 +16,3 @@ const Layout = props => {
     )
 }
 export default Layout;
-//< Footer/>
