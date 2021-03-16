@@ -19,23 +19,23 @@ const SkillsSection = () => {
     <div className='skills-section'>
       <Container id="skills">
         <h1 className="text-center skills-header">Skills</h1>
-          <Row className="justify-content-center">
-          <Col xs={12} s={6} m={4} xl={4} className="d-flex justify-content-center">
+          <Row className="justify-content-center" style={{paddingBottom:"30px"}}>
+          <Col className="d-flex justify-content-center" xs={12} s={6} m={4} xl={4}>
               <span>
                 <img src={NetCoreIcon} className="img-icon net-icon"/>
-                <h3 className="text-center hide-mobile" style={{color: "#4b1b7d"}}>.NET</h3>
+                <h3 className="text-center hide-mobile" style={{color: "#4b1b7d", marginTop:"10px"}}>.NET</h3>
               </span>
             </Col>
             <Col xs={12} s={6} m={4} xl={4} className="d-flex justify-content-center">
               <span style={{color: "darkcyan"}}>
-              <img src={Entity} className="img-icon" style={{width:"180px",paddingBottom:"30px",paddingTop:"20px"}}/>
-                <h3 className="text-center hide-mobile">Entity</h3>
+              <img src={Entity} className="img-icon entity-icon"/>
+                <h3 className="text-center hide-mobile entity-text">Entity</h3>
               </span>
             </Col>
             <Col xs={12} s={6} F m={4} xl={4} className="d-flex justify-content-center">
             <span style={{ color: "#50BBD7" }}>
                 <FontAwesomeIcon icon={faReact} className="fa-icon"/>
-                <h3 className="text-center hide-mobile" style={{color: "#3e9eb8"}}>React</h3>
+                <h3 className="text-center hide-mobile react-text" style={{color: "#3e9eb8",paddingBottom:"40px"}}>React</h3>
                 </span>
             </Col>
           </Row>
@@ -49,7 +49,7 @@ const SkillsSection = () => {
           <Col xs={12} s={6} m={4} xl={4} className="d-flex justify-content-center">
               <span>
               <img src={RestIcon} className="img-icon rest-icon"/>
-                <h3 className="text-center hide-mobile" style={{color: "#7d130e"}}>REST</h3>
+                <h3 className="text-center hide-mobile rest-text" style={{color: "#7d130e"}}>REST</h3>
               </span>
             </Col>
             <Col xs={12} s={6} m={4} xl={4} className="d-flex justify-content-center">
@@ -59,7 +59,7 @@ const SkillsSection = () => {
               </span>
             </Col>
           </Row>
-          <h4 style={{paddingTop:"40px", paddingBottom:"40px"}} className="skills-subtext">1.5 plus years enterprise experience with the Agile software development life cycle and full-stack development
+          <h4 style={{paddingTop:"40px", paddingBottom:"60px"}} className="skills-subtext">1.5 plus years enterprise experience with the Agile software development life cycle and full-stack development
           </h4>
 
       </Container>

@@ -32,24 +32,28 @@ export default function Index() {
     <div className="sunset-image">
       <Container>
         <Layout>
+          <div className={"header-text"}>
           <h1>Hi, my name is Rob!</h1> 
-          <p className={'move-text'} style={{color:"#d97802"}}>I'm a software developer with a focus on .NET & React</p>
+          <p className={'move-text'} style={{color:"#d97802"}}>I'm a software developer with focuses on .NET & React</p>
           <p className={'p-notice'}></p>
-          </Layout>
+        </div>
+        </Layout>
           </Container>
-          <span style={{bottom:"10px"}}>
-          <a style={{fontWeight:"bold",color:"#363136"}}>Photo taken in</a><a style={{color:"#363136"}}> Ko Pha Ngan, Thailand</a> 
-          </span>
       </div>
       <SkillsSection/>
       <ProjectsSection/>
-      <Footer/>
       </div>
   )
 }
 
 
 /*
+      <Footer/>
+
+          <span className="photo-credits">
+          <p style={{fontWeight:"bold",color:"#363136",marginBottom:"0"}}>Photo taken in</p><p style={{margin:"0",paddingTop:"0"}}> Ko Pha Ngan, Thailand</p> 
+          </span>
+          
              <p>Plan to Repeat the bottom of the ocean background when the user is scrollign on the Y-Axis. That way
             the container is consistent and creates a pretty theme that matches the main picture for when we put future components</p><br/>
             <br/>

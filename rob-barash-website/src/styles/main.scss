@@ -92,20 +92,23 @@ p{
     display:none;
 }
 
-@keyframes move-text{
-    0% { margin-right: 0em; opacity: 1; }
-    50% { margin-right: 1em; }
-    100% { margin-right: 0em; opacity: 1; }
+.hidden{
+    background-image:none;
 }
-//.section-seperator{
-//    position:absolute;
-//
- //   background-image: linear-gradient(to bottom, $secondaryColor,$gradientBg1 10%, $gradientBg1 20%,$gradientBg1 80%, $gradientBg1 90%, $secondaryColor);
-//}
 
-//.section-layout{ 
-//}
 
+/*
+--------------------
+B A N N E R  S T Y L E S 
+--------------------
+*/
+
+.header-text{
+    position:absolute;
+    top:20%;
+    padding:0px 0px 0px 15px;
+
+}
 .center-header{
     position: absolute;
     top: 50%;
@@ -136,32 +139,63 @@ sunset-bottom-repeat{
     background-repeat: repeat-y;
 }
 
-.hidden{
-    background-image:none;
+@keyframes move-text{
+    0% { margin-right: 0em; opacity: 1; }
+    50% { margin-right: 1em; }
+    100% { margin-right: 0em; opacity: 1; }
 }
 
+.photo-credits{
+    font-size:small;
+    color:"#363136";
+    position:"absolute";
+    bottom:"20%";
+    text-decoration:none;
+}
 /*
 --------------------
 I C O N  S T Y L E S 
 --------------------
 */
 
+.entity-text{
+    position:absolute;
+    margin-top:55px;
+}
+
+.entity-icon{
+    margin-top:25px;
+    height: auto;
+    width: auto;
+}
 .fa-icon{
     font-size:130px;
-    padding-bottom:10px;
+    margin-bottom:10px;
 }
 
 .img-icon{
-    //height:65%;
-    width:120px;
-    padding-bottom:30px;
+    padding-bottom:100px;
+    width:50%;
+    margin-left:25%;
 }
+
 .net-icon{
     filter: invert(22%) sepia(37%) saturate(3041%) hue-rotate(249deg) brightness(88%) contrast(102%);
 }
 
+.react-text{
+    position:absolute;
+    margin-top:22px;
+    margin-left:10px;
+
+}
 .rest-icon{
     filter: invert(11%) sepia(66%) saturate(4473%) hue-rotate(353deg) brightness(100%) contrast(97%);
+}
+.rest-text{
+    position:absolute;
+    margin-top:22px;
+    margin-left:10px;
 }
 
 .sql-icon{
@@ -221,7 +255,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .section{
         margin:10rem 0px;
     }
-
 }
 
 //IPhone 6/7/8 Plus
@@ -264,6 +297,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         justify-content:center;
         margin-left: 25%;
         width:50%;
+    }
+    .img-icon{
+        //height:65%;
+        width:120px;
+        padding-bottom:30px;
+        margin-left:0px;
     }
 }
 

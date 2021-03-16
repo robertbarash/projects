@@ -6,3 +6,10 @@
     background-color: #f5f5f5;
 }
 
+.icon{
+    margin-left:20px;
+}
+.iconsRight{
+    position:Absolute;
+    right: 5%;
+}
